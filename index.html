@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Sistemas de Grid
+	</title>
+
+	<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--  NORMALIZE CSS-->
+		<link rel="stylesheet" type="text/css" href="CSS/normalize.css">
+		<!--Estilo Pagina-->
+		<link rel="stylesheet" type="text/css" href="CSS/estilo.css">
+		<!--BOOTSTRAP-->
+		<link rel="stylesheet" href="css/bootstrap.min.css" >
+</head>
+<body>
+
+ 	<div class="container marcador-container">
+ 		<h2>Grids</h2>
+ 		<div class="row">
+ 			<div class="marcador col-md-6 col-xl-4"> area1</div>
+ 			<div class="marcador col-md-6 col-xl-4"> area2</div>
+ 			<div class="marcador col-md-6 col-xl-4"> area3</div>
+ 			
+ 		</div>
+
+ 		<h2>Grid Ordenada</h2>
+ 		<div class="row">
+ 			<div class="marcador col-md-4 order-3"> area1</div>
+ 			<div class="marcador col-md-4  order-1"> area2</div>
+ 			<div class="marcador col-md-4  order-2"> area3</div>
+ 			
+ 		</div>
+
+ 		<h2>Grid empilhada igual SM</h2>
+ 		<div class="row">
+ 			<div class="marcador col-sm"> area1</div>
+ 			<div class="marcador col-sm"> area2</div>
+ 			<div class="marcador col-sm"> area3</div>
+ 			
+ 		</div>
+
+ 		<h2>OFFSET</h2>
+ 		<div class="row">
+ 			<div class="marcador col-md-6 offset-3"> area1</div>	
+ 		</div>
+
+ 		<div class="row">
+ 			<div class="marcador col-md-4 offset-1"> area1</div>
+ 			<div class="marcador col-md-4 offset-3"> area2</div>
+ 			
+ 		</div>
+ 		<h2>aninhamento</h2>
+ 		<div class="row">
+ 			<div class="marcador col-md-6"> 
+ 				Pai
+ 				<div class="row"> 
+ 					<div class="marcador col-md-6">
+ 						Conteúdos Site
+ 					</div>
+ 				</div>
+
+ 			</div>
+ 		</div>
+
+
+ 		<h2>Alinhamento indidual e geral</h2>
+ 		<div class="marcador-alinhamento row align-items-center">
+			<div class="marcador col align-self-start"> Area 1</div> 
+			<div class=" marcador col"> Area 2</div> 	
+			<div class=" marcador col align-self-end"> Area 3</div> 			
+		</div>
+
+
+ 		<h2>Justify-content(center, end ou start) </h2>
+ 		<div class="marcador-alinhamento row justify-content-center">
+			<div class="marcador col-2"> Area 1</div> 
+			<div class=" marcador col-2"> Area 2</div> 	
+			<div class=" marcador col-2"> Area 3</div> 			
+		</div>
+
+		<h2>Justify-content(around e between) </h2>
+ 		<div class="marcador-alinhamento row justify-content-between">
+			<div class="marcador col-2"> Area 1</div> 
+			<div class=" marcador col-2"> Area 2</div> 	
+			<div class=" marcador col-2"> Area 3</div> 			
+		</div>
+
+		<!-- no gutters para tirar espaçamento!-->
+
+
+		<h2>CLASSES FLEXBOX</h2>
+		 <h2>Flex container e flex itens (d-flex, flex-row, flex-column, flex-row-reverse)</h2>
+      <div class="caixa d-flex flex-row">
+        <div class="item">Flex item 1</div>
+        <div class="item">Flex item 2</div>
+        <div class="item">Flex item 3</div>
+      </div>
+      <br><br>
+
+      <h2>Alinhamento horizontal: justify-content-ALINHAMENTO (start, center, end, around e between)</h2>
+      <div class="caixa d-flex justify-content-center">
+        <div class="item">Flex item 1</div>
+        <div class="item">Flex item 2</div>
+        <div class="item">Flex item 3</div>
+      </div>
+      <br><br>
+
+      <h2>Colunas (d-flex, flex-column, flex-column-reverse)</h2>
+      <div class="caixa d-flex flex-column">
+        <div class="item">Flex item 1</div>
+        <div class="item">Flex item 2</div>
+        <div class="item">Flex item 3</div>
+      </div>
+      <br><br>
+
+      <h2>Alinhamento vertical: align-items-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+      <div class="caixa d-flex align-items-center">
+        <div class="item">Flex item 1</div>
+        <div class="item">Flex item 2</div>
+        <div class="item">Flex item 3</div>
+      </div>
+      <br><br>
+
+      <h2>Alinhamento self: align-self-ALINHAMENTO (start, center, end, baseline e stretch)</h2>
+      <div class="caixa d-flex">
+        <div class="item align-self-end">Flex item 1</div>
+        <div class="item align-self-start">Flex item 2</div>
+        <div class="item align-self-center">Flex item 3</div>
+        <div class="item align-self-baseline">Flex item 4</div>
+        <div class="item align-self-stretch">Flex item 5</div>
+      </div>
+      <br><br>
+
+    </div>
+ 	</div>
+</body>
+</html>

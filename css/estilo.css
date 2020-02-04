@@ -1,0 +1,31 @@
+
+
+.marcador{
+
+	background:	#fe9d9d	;
+	border: 1px solid red;
+}
+
+.marcador-container{
+
+	background:#8A0808;
+	border: 1px solid #36ae26;
+	color: white;
+
+}
+
+.marcador-alinhamento{
+	background:	#fe9d9d	;
+	border: 1px solid red;
+	height: 120px;
+
+}
+.caixa{
+	background: blue;
+	height: 200px;
+}
+
+.item{
+	padding:5px;
+	border: 1px solid white;
+}
